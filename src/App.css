@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.mydiv{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 7%;
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+}
+
+.btn{
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 50px;
+}
+
+span{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input{
+  outline: 1px solid grey;
+  border: none;
+  border-radius: 5px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+  margin: 7px;
+}
